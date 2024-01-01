@@ -1,0 +1,21 @@
+:root {
+  --primary-dark-for-intro-and-signup: hsl(217, 28%, 15%);
+  --primary-dark-for-main: hsl(218, 28%, 13%);
+  --primary-dark-for-footer: hsl(216, 53%, 9%);
+  --primary-dark-for-testimonials: hsl(219, 30%, 18%);
+  --accent-cyan: hsl(176, 68%, 64%);
+  --accent-blue: hsl(198, 60%, 50%);
+  --accent-light-red: hsl(0, 100%, 63%);
+  --pure-white: hsl(0, 0%, 100%);
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary-dark-for-intro-and-signup);
+  min-width: 360px;
+}
