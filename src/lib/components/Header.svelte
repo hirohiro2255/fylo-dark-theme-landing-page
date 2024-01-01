@@ -18,11 +18,14 @@
 </header>
 
 <style>
+	.header {
+		padding-top: 24px;
+		padding-bottom: 48px;
+	}
 	.header-wrapper {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding-top: 24px;
 		width: min(88.27%, 1280px);
 		margin-right: auto;
 		margin-left: auto;
@@ -41,8 +44,9 @@
 	}
 
 	@media (768px < width <= 960px) {
-		.header-wrapper {
+		.header {
 			padding-top: 73px;
+			padding-bottom: 75px;
 		}
 		.header-logo-link {
 			width: 176px;
@@ -60,7 +64,6 @@
 		.nav-list-item a:hover {
 			opacity: 1;
 			cursor: pointer;
-			font-weight: 700;
 			text-decoration-line: underline;
 			text-decoration-color: var(--pure-white);
 			transition: ease-in 0.1s;
@@ -68,8 +71,9 @@
 	}
 
 	@media (960px < width <= 1440px) {
-		.header-wrapper {
+		.header {
 			padding-top: 73px;
+			padding-bottom: 75px;
 		}
 		.header-logo-link {
 			width: 176px;
