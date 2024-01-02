@@ -16,9 +16,11 @@
 				Securely share files and folders with friends, family and colleagues for live collaboration.
 				No email attachments required.
 			</p>
-			<a href="/" class="lower-hero-button"
-				>See how Fylo works<img src={arrowIcon} alt="arrow icon" /></a
-			>
+			<div class="lower-hero-button-group">
+				<a href="/" class="lower-hero-button"
+					>See how Fylo works<img src={arrowIcon} alt="arrow icon" /></a
+				>
+			</div>
 		</div>
 	</div>
 </section>
@@ -55,5 +57,15 @@
 		font-size: 0.875rem;
 		opacity: 0.8;
 		line-height: 1.5;
+	}
+	.lower-hero-button {
+		text-decoration: none;
+		border-bottom: 1px solid var(--accent-cyan);
+		color: var(--accent-cyan);
+		padding-bottom: 5px;
+	}
+	.lower-hero-button:hover {
+		-webkit-filter: brightness(0) invert(1);
+		filter: brightness(0) invert(1);
 	}
 </style>
