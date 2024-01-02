@@ -19,9 +19,10 @@
 <style>
 	.upper-hero {
 		background-image: url('$lib/assets/bg-curvy-mobile.svg');
-		background-size: contain;
+		/* background-size: contain; */
 		background-repeat: no-repeat;
 		background-position: 50% 35%;
+		background-size: 130% 100%;
 	}
 	.hero-wrapper {
 		width: min(81.07%, 720px);
@@ -68,6 +69,7 @@
 	@media (768px <= width <= 1440px) {
 		.upper-hero {
 			background-image: url('$lib/assets/bg-curvy-desktop.svg');
+			background-size: contain;
 			background-position: 50% 102%;
 		}
 
