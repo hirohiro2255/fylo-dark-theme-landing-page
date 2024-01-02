@@ -19,9 +19,9 @@
 <style>
 	.upper-hero {
 		background-image: url('$lib/assets/bg-curvy-mobile.svg');
-		background-size: cover;
+		background-size: contain;
 		background-repeat: no-repeat;
-		background-position: 50% 50%;
+		background-position: 50% 35%;
 	}
 	.hero-wrapper {
 		width: min(81.07%, 720px);
@@ -63,5 +63,23 @@
 	}
 	.hero-button:hover {
 		background: hsla(186, 62%, 72%, 1);
+	}
+
+	@media (768px <= width <= 1440px) {
+		.upper-hero {
+			background-image: url('$lib/assets/bg-curvy-desktop.svg');
+			background-position: 50% 102%;
+		}
+
+		.hero-title {
+			font-size: 2.5rem;
+		}
+		.hero-paragraph {
+			font-size: 1.25rem;
+			padding-top: 32px;
+		}
+		.hero-button {
+			font-size: 1rem;
+		}
 	}
 </style>
